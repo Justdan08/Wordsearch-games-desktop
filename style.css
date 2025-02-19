@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2487.5">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.6px Menlo; color: #93b379; -webkit-text-stroke: #93b379; background-color: #13161e}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.6px Menlo; color: #6f8fb4; -webkit-text-stroke: #6f8fb4; background-color: #13161e}
+    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.6px Menlo; color: #f6f9ff; -webkit-text-stroke: #ffffff; background-color: #13161e; min-height: 15.0px}
+    p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.6px Menlo; color: #f6f9ff; -webkit-text-stroke: #ffffff; background-color: #13161e}
+    p.p5 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.6px Menlo; color: #505b75; -webkit-text-stroke: #505b75; background-color: #13161e}
+    span.s1 {font-kerning: none}
+    span.s2 {font-kerning: none; color: #f6f9ff; -webkit-text-stroke: 0px #ffffff}
+    span.s3 {font-kerning: none; color: #6f8fb4; -webkit-text-stroke: 0px #6f8fb4}
+    span.s4 {font-kerning: none; color: #93b379; -webkit-text-stroke: 0px #93b379}
+    span.s5 {font-kerning: none; color: #77b3c5; -webkit-text-stroke: 0px #77b3c5}
+  </style>
+</head>
+<body>
+<p class="p1"><span class="s1">body</span><span class="s2"> </span><span class="s3">{</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s1">font-family:</span><span class="s2"> </span><span class="s4">'Georgia'</span><span class="s1">,</span><span class="s2"> serif</span><span class="s1">;</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s1">background-color:</span><span class="s2"> white</span><span class="s1">;</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s1">text-align:</span><span class="s2"> center</span><span class="s1">;</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s1">margin:</span><span class="s2"> 0</span><span class="s1">;</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s1">padding:</span><span class="s2"> 20px</span><span class="s1">;</span></p>
+<p class="p2"><span class="s1">}</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">h1</span><span class="s2"> </span><span class="s3">{</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">  </span></span><span class="s3">color:</span><span class="s1"> #333</span><span class="s3">;</span></p>
+<p class="p2"><span class="s1">}</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">#wordsearch</span><span class="s2"> </span><span class="s3">{</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s1">display:</span><span class="s2"> grid</span><span class="s1">;</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s1">grid-template-columns:</span><span class="s2"> </span><span class="s5">repeat</span><span class="s1">(</span><span class="s2">10</span><span class="s1">,</span><span class="s2"> 40px</span><span class="s1">);</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s1">grid-template-rows:</span><span class="s2"> </span><span class="s5">repeat</span><span class="s1">(</span><span class="s2">10</span><span class="s1">,</span><span class="s2"> 40px</span><span class="s1">);</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">  </span></span><span class="s3">gap:</span><span class="s1"> 2px</span><span class="s3">;</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s1">justify-content:</span><span class="s2"> center</span><span class="s1">;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">  </span></span><span class="s3">margin:</span><span class="s1"> 20px auto</span><span class="s3">;</span></p>
+<p class="p2"><span class="s1">}</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">.cell</span><span class="s2"> </span><span class="s3">{</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s1">display:</span><span class="s2"> flex</span><span class="s1">;</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s1">align-items:</span><span class="s2"> center</span><span class="s1">;</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s1">justify-content:</span><span class="s2"> center</span><span class="s1">;</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s1">background-color:</span><span class="s2"> white</span><span class="s1">;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">  </span></span><span class="s3">border:</span><span class="s1"> 1px solid black</span><span class="s3">;</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s1">font-size:</span><span class="s2"> 18px</span><span class="s1">;</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s1">font-weight:</span><span class="s2"> bold</span><span class="s1">;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">  </span></span><span class="s3">cursor:</span><span class="s1"> pointer</span><span class="s3">;</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s1">user-select:</span><span class="s2"> none</span><span class="s1">;</span></p>
+<p class="p2"><span class="s1">}</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">.cell.selected</span><span class="s2"> </span><span class="s3">{</span></p>
+<p class="p5"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s3">background-color:</span><span class="s2"> </span><span class="s5">rgba</span><span class="s3">(</span><span class="s2">73</span><span class="s3">,</span><span class="s2"> 132</span><span class="s3">,</span><span class="s2"> 184</span><span class="s3">,</span><span class="s2"> 0.5</span><span class="s3">);</span><span class="s2"> </span><span class="s1">/* #4984B8 with 50% opacity */</span></p>
+<p class="p2"><span class="s1">}</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">#word-list</span><span class="s2"> </span><span class="s3">{</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s1">margin-top:</span><span class="s2"> 20px</span><span class="s1">;</span></p>
+<p class="p2"><span class="s1">}</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">#word-list div</span><span class="s2"> </span><span class="s3">{</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s1">margin:</span><span class="s2"> 5px</span><span class="s1">;</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s1">font-size:</span><span class="s2"> 18px</span><span class="s1">;</span></p>
+<p class="p2"><span class="s1">}</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">.found</span><span class="s2"> </span><span class="s3">{</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s1">text-decoration:</span><span class="s2"> line-through</span><span class="s1">;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">  </span></span><span class="s3">color:</span><span class="s1"> #888</span><span class="s3">;</span></p>
+<p class="p2"><span class="s1">}</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">#reset-button</span><span class="s2"> </span><span class="s3">{</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s1">margin-top:</span><span class="s2"> 20px</span><span class="s1">;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">  </span></span><span class="s3">padding:</span><span class="s1"> 10px 20px</span><span class="s3">;</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s1">font-size:</span><span class="s2"> 16px</span><span class="s1">;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">  </span></span><span class="s3">cursor:</span><span class="s1"> pointer</span><span class="s3">;</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s1">background-color:</span><span class="s2"> #4984B8</span><span class="s1">;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">  </span></span><span class="s3">color:</span><span class="s1"> white</span><span class="s3">;</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s1">border:</span><span class="s2"> none</span><span class="s1">;</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s1">border-radius:</span><span class="s2"> 5px</span><span class="s1">;</span></p>
+<p class="p2"><span class="s1">}</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">#reset-button:hover</span><span class="s2"> </span><span class="s3">{</span></p>
+<p class="p2"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s1">background-color:</span><span class="s2"> #366a9b</span><span class="s1">;</span></p>
+<p class="p2"><span class="s1">}</span></p>
+</body>
+</html>
